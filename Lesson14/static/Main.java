@@ -15,7 +15,7 @@ public class Main {
     System.out.println(h2.money);
     // ↑静的フィールド
 
-    // ↓静的メソッド
+    // ↓静的メソッド(クラスから直接呼び出している)
     Hero.setRandomMoney();
     System.out.println(Hero.money);
     Hero h3 = new Hero();
