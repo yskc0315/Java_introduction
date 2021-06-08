@@ -1,7 +1,7 @@
 public class Main {
   public static void main(String[] args) {
-    // ピラミッド
-    System.out.println("ピラミッドを出力");
+    // ↓ピラミッド
+    System.out.println("ピラミッドを出力します");
     for (int i = 0; i < 5; i++) {
       for (int j = 0; j < 5 - (i + 1); j++) {
         System.out.print("　");
@@ -12,8 +12,8 @@ public class Main {
       System.out.println("");
     }
 
-    // 逆ピラミッド
-    System.out.println("逆ピラミッドを出力");
+    // ↓逆ピラミッド
+    System.out.println("逆ピラミッドを出力します");
     for (int l = 0; l < 5; l++) {
       for (int m = 0; m < l; m++) {
         System.out.print("　");
